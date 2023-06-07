@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Rick And Morty Zara</string>
+    <string name="characters">Characters</string>
+    <string name="favorites">Favorites</string>
+    <string name="name_of_the_character">Name of the character</string>
+    <string name="back_online">Back online!</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="dead">Dead</string>
+    <string name="alive">Alive</string>
+    <string name="unknown">Unknown</string>
+    <string name="no_results">😥 No results</string>
+    <string name="filter_by_status">Filter by status</string>
+    <string name="species">Species</string>
+    <string name="gender">Gender</string>
+    <string name="origin">Origin</string>
+    <string name="location">Location</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode">Episode</string>
+    <string name="access_in_hbo">You can access all the content at https://www.hbomax.com/</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="characters_suggestions">
+        <item>Rick Sanchez:The eccentric and brilliant scientist is the main character</item>
+        <item>Morty Smith:Rick\'s timid and easily influenced grandson</item>
+        <item>Summer Smith:Morty\'s older sister and Rick\'s granddaughter</item>
+        <item>Beth Smith:Rick\'s daughter and Morty and Summer\'s mother.</item>
+        <item>Jerry Smith:Morty and Summer\'s father and Beth\'s husband</item>
+    </string-array>
+</resources>

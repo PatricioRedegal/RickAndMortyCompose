@@ -1,0 +1,79 @@
+[versions]
+
+activity-compose = "1.7.1"
+androidx-compose-bom = "2023.05.01"
+androidx-lifecycle-viewModel = "2.5.1"
+core-ktx = "1.10.0"
+dagger = "2.45"
+dagger-navigation = "1.0.0"
+kotlin = "1.8.20"
+landscapistCoil = "1.5.2"
+lifecycle-runtime-ktx = "2.6.1"
+navigation = "2.5.3"
+retrofit = "2.9.0"
+room = "2.5.0"
+material3 = "1.1.0"
+
+# GradlePlugin and lint need to be updated together
+gradlePlugin = "8.0.0"
+lintMinCompose = "30.0.0"
+
+# Test
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+
+[libraries]
+
+# AndroidX
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
+androidx-compose-material = { module = "androidx.compose.material:material" }
+androidx-compose-material-iconsExtended = { module = "androidx.compose.material:material-icons-extended" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-lifecycle-viewModel = { module = 'androidx.lifecycle:lifecycle-viewmodel-ktx', version.ref = "androidx-lifecycle-viewModel" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx"}
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx"}
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose"}
+navigation-runtime-ktx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+
+# Compose UI
+ui = { group = "androidx.compose.ui", name = "ui"}
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics"}
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling"}
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview"}
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest"}
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4"}
+
+# DI
+dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "dagger" }
+dagger-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "dagger" }
+dagger-hilt-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "dagger-navigation" }
+
+# Api Rest
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+# Load Images
+landscapist-coil = {module =  "com.github.skydoves:landscapist-coil",version.ref = "landscapistCoil"}
+
+# Kotlin
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+# Android
+android-tools-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "gradlePlugin" }
+
+# Test
+junit = { group = "junit", name = "junit", version.ref = "junit"}
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit"}
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core"}
+
+[plugins]
+
+com-android-application = { id = "com.android.application", version.ref = "gradlePlugin"}
+dagger-hilt-android = { id = "com.google.dagger.hilt.android" , version.ref = "dagger" }
+
+[bundles]
